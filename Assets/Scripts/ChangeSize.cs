@@ -28,7 +28,6 @@ public class ChangeSize : MonoBehaviour
     {
 
         transform.localScale = new UnityEngine.Vector3(transform.localScale.x + 1, transform.localScale.y + 1, transform.localScale.z + 1);
-
         HUD.text = transform.localScale.ToString(); //update the HUD text after making a change.
 
     }
