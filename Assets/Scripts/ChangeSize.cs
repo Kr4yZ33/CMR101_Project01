@@ -69,4 +69,9 @@ public class ChangeSize : MonoBehaviour
         HUD.text = transform.position.ToString();
 
     }
+    public void DisplayHud()
+    {
+        HUD.gameObject.transform.localScale = new UnityEngine.Vector3(0, 0, 0);
+
+    }
 }
