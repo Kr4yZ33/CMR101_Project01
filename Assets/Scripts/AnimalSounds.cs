@@ -6,7 +6,7 @@ using UnityEngine;
 public class AnimalSounds : MonoBehaviour
 {
     public AudioSource ourAudioSource;
-    public void PlayTheAudio;
+    //public PlayTheAudio;
 
     // Start is called before the first frame update
     void Start()
